@@ -91,6 +91,16 @@ func GetASummaryGet(w http.ResponseWriter, r *http.Request) {
 	fmt.Fprint(w, string(out))
 }
 
+type Item struct {
+	Title   string `json:"string"`
+	Link    string `json:"string"`
+	Snippet string `json:"string"`
+}
+
+type GoogleCustomSearchResult struct {
+	Items []Item `json:"items`
+}
+
 // RetrieveGet - Retrieve search results.
 func RetrieveGet(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json; charset=UTF-8")
