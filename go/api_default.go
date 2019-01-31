@@ -154,7 +154,6 @@ func RetrieveGet(w http.ResponseWriter, r *http.Request) {
 		log.Fatal(err)
 	}
 	resp.Body.Close()
-	log.Printf(string(raw))
 
 	// Comment in here to test without using Google API
 	//
@@ -182,7 +181,7 @@ func RetrieveGet(w http.ResponseWriter, r *http.Request) {
 	}
 	out, err := json.Marshal(&responce)
 	if err != nil {
-		panic(err)
+		log.Fatal(err)
 	}
 	fmt.Fprint(w, string(out))
 }
