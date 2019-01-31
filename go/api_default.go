@@ -13,11 +13,13 @@ import (
 	"bufio"
 	"encoding/json"
 	"fmt"
+	"io/ioutil"
 	"log"
 	"net/http"
 	"os"
 	"strconv"
 	"strings"
+	"time"
 )
 
 const hostname = "localhost"
@@ -91,6 +93,16 @@ func GetASummaryGet(w http.ResponseWriter, r *http.Request) {
 	fmt.Fprint(w, string(out))
 }
 
+type Item struct {
+	Title   string `json:"title"`
+	Link    string `json:"link"`
+	Snippet string `json:"snippet"`
+}
+
+type GoogleCustomSearchResult struct {
+	Items []Item `json:"items`
+}
+
 // RetrieveGet - Retrieve search results.
 func RetrieveGet(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json; charset=UTF-8")
@@ -103,4 +115,73 @@ func RetrieveGet(w http.ResponseWriter, r *http.Request) {
 	}
 
 	log.Printf("query = " + query + ", max_urls = " + strconv.Itoa(max_urls))
+
+	file, err := os.Open("GoogleCustomSearchAPIKey")
+	if err != nil {
+		log.Fatal(err)
+	}
+	scanner := bufio.NewScanner(file)
+	scanner.Scan()
+	key := scanner.Text()
+	log.Printf(key)
+	file.Close()
+
+	file, err = os.Open("GoogleCustomSearchEngineID")
+	if err != nil {
+		log.Fatal(err)
+	}
+	scanner = bufio.NewScanner(file)
+	scanner.Scan()
+	engine := scanner.Text()
+	log.Printf(engine)
+	file.Close()
+
+	searchUrl := "https://www.googleapis.com/customsearch/v1?key=" + key + "&cx=" + engine + "&q=" + strings.Replace(query, " ", "+", -1)
+	log.Printf(searchUrl)
+
+	tr := &http.Transport{
+		MaxIdleConns:       10,
+		IdleConnTimeout:    30 * time.Second,
+		DisableCompression: true,
+	}
+	client := &http.Client{Transport: tr}
+	resp, err := client.Get(searchUrl)
+	if err != nil {
+		log.Fatal(err)
+	}
+	raw, err := ioutil.ReadAll(resp.Body)
+	if err != nil {
+		log.Fatal(err)
+	}
+	resp.Body.Close()
+
+	// Comment in here to test without using Google API
+	//
+	// file, err = os.Open("responce-example.json")
+	// if err != nil {
+	// 	log.Fatal(err)
+	// }
+	// defer file.Close()
+	//
+	// raw, err := ioutil.ReadAll(file)
+	// if err != nil {
+	// 	log.Fatal(err)
+	// }
+
+	var searchResult GoogleCustomSearchResult
+	err = json.Unmarshal(raw, &searchResult)
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	var responce []Document
+	for i, r := range searchResult.Items {
+		d := Document{Url: r.Link, Title: r.Title, Description: r.Snippet, Score: float32(len(searchResult.Items) - i)}
+		responce = append(responce, d)
+	}
+	out, err := json.Marshal(&responce)
+	if err != nil {
+		log.Fatal(err)
+	}
+	fmt.Fprint(w, string(out))
 }

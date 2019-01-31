@@ -1,0 +1,495 @@
+{
+ "kind": "customsearch#search",
+ "url": {
+  "type": "application/json",
+  "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&relatedSite={relatedSite?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+ },
+ "queries": {
+  "request": [
+   {
+    "title": "Google Custom Search - haskell lisp",
+    "totalResults": "1480000",
+    "searchTerms": "haskell lisp",
+    "count": 10,
+    "startIndex": 1,
+    "inputEncoding": "utf8",
+    "outputEncoding": "utf8",
+    "safe": "off",
+    "cx": "006710409034448891753:-f7hyeqc4-s"
+   }
+  ],
+  "nextPage": [
+   {
+    "title": "Google Custom Search - haskell lisp",
+    "totalResults": "1480000",
+    "searchTerms": "haskell lisp",
+    "count": 10,
+    "startIndex": 11,
+    "inputEncoding": "utf8",
+    "outputEncoding": "utf8",
+    "safe": "off",
+    "cx": "006710409034448891753:-f7hyeqc4-s"
+   }
+  ]
+ },
+ "context": {
+  "title": "Google"
+ },
+ "searchInformation": {
+  "searchTime": 0.513652,
+  "formattedSearchTime": "0.51",
+  "totalResults": "1480000",
+  "formattedTotalResults": "1,480,000"
+ },
+ "items": [
+  {
+   "kind": "customsearch#result",
+   "title": "Lisp and Haskell",
+   "htmlTitle": "\u003cb\u003eLisp\u003c/b\u003e and \u003cb\u003eHaskell\u003c/b\u003e",
+   "link": "https://markkarpov.com/post/lisp-and-haskell.html",
+   "displayLink": "markkarpov.com",
+   "snippet": "Jun 1, 2017 ... Lisp and Haskell are arguably the most peculiar languages out there, at least \nthey are from my experience. It's always interesting to compare ...",
+   "htmlSnippet": "Jun 1, 2017 \u003cb\u003e...\u003c/b\u003e \u003cb\u003eLisp\u003c/b\u003e and \u003cb\u003eHaskell\u003c/b\u003e are arguably the most peculiar languages out there, at least \u003cbr\u003e\nthey are from my experience. It&#39;s always interesting to compare&nbsp;...",
+   "cacheId": "TA6mOX4uTccJ",
+   "formattedUrl": "https://markkarpov.com/post/lisp-and-haskell.html",
+   "htmlFormattedUrl": "https://markkarpov.com/post/\u003cb\u003elisp\u003c/b\u003e-and-\u003cb\u003ehaskell\u003c/b\u003e.html",
+   "pagemap": {
+    "metatags": [
+     {
+      "viewport": "width=device-width, initial-scale=1, shrink-to-fit=no",
+      "author": "Mark Karpov",
+      "theme-color": "#191970",
+      "msapplication-navbutton-color": "#191970"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Haskell Lisp - HaskellWiki",
+   "htmlTitle": "\u003cb\u003eHaskell Lisp\u003c/b\u003e - HaskellWiki",
+   "link": "https://wiki.haskell.org/Haskell_Lisp",
+   "displayLink": "wiki.haskell.org",
+   "snippet": "Nov 6, 2016 ... Lispers who love Haskell can be heard saying that Haskell is Lisp's missing M-\nExpression implementation. Though that statement embodies a ...",
+   "htmlSnippet": "Nov 6, 2016 \u003cb\u003e...\u003c/b\u003e Lispers who love \u003cb\u003eHaskell\u003c/b\u003e can be heard saying that \u003cb\u003eHaskell\u003c/b\u003e is \u003cb\u003eLisp&#39;s\u003c/b\u003e missing M-\u003cbr\u003e\nExpression implementation. Though that statement embodies a&nbsp;...",
+   "cacheId": "SNwhmWPQnLUJ",
+   "formattedUrl": "https://wiki.haskell.org/Haskell_Lisp",
+   "htmlFormattedUrl": "https://wiki.\u003cb\u003ehaskell\u003c/b\u003e.org/\u003cb\u003eHaskell\u003c/b\u003e_\u003cb\u003eLisp\u003c/b\u003e"
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Lisp vs. Haskell : lisp",
+   "htmlTitle": "Lisp vs. \u003cb\u003eHaskell\u003c/b\u003e : \u003cb\u003elisp\u003c/b\u003e",
+   "link": "https://www.reddit.com/r/lisp/comments/1fj0qf/lisp_vs_haskell/",
+   "displayLink": "www.reddit.com",
+   "snippet": "Jun 2, 2013 ... I have some experience with Haskell but almost none with Lisp. But when looking \nat Lisp, I cannot find obvious advantages over Haskell.",
+   "htmlSnippet": "Jun 2, 2013 \u003cb\u003e...\u003c/b\u003e I have some experience with \u003cb\u003eHaskell\u003c/b\u003e but almost none with \u003cb\u003eLisp\u003c/b\u003e. But when looking \u003cbr\u003e\nat \u003cb\u003eLisp\u003c/b\u003e, I cannot find obvious advantages over \u003cb\u003eHaskell\u003c/b\u003e.",
+   "cacheId": "QiJcrGbeJH0J",
+   "formattedUrl": "https://www.reddit.com/r/lisp/comments/1fj0qf/lisp_vs_haskell/",
+   "htmlFormattedUrl": "https://www.reddit.com/r/\u003cb\u003elisp\u003c/b\u003e/comments/1fj0qf/\u003cb\u003elisp\u003c/b\u003e_vs_\u003cb\u003ehaskell\u003c/b\u003e/",
+   "pagemap": {
+    "cse_thumbnail": [
+     {
+      "width": "225",
+      "height": "225",
+      "src": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQA5q26i3a17Zvd-sTZaS-r7jkLsXdf8LP5jRTBYl_1M-nD_pfGPFAT9lA"
+     }
+    ],
+    "metatags": [
+     {
+      "referrer": "always",
+      "viewport": "width=1024",
+      "og:image": "https://www.redditstatic.com/new-icon.png",
+      "og:ttl": "600",
+      "og:site_name": "reddit",
+      "og:description": "I have some experience with Haskell but almost none with Lisp. But when looking at Lisp, I cannot find obvious advantages over Haskell. I think I...",
+      "og:title": "Lisp vs. Haskell",
+      "twitter:site": "@reddit",
+      "twitter:card": "summary",
+      "twitter:title": "Lisp vs. Haskell",
+      "msapplication-tilecolor": "#ffffff",
+      "msapplication-tileimage": "//www.redditstatic.com/desktop2x/img/favicon/ms-icon-144x144.png",
+      "theme-color": "#ffffff"
+     }
+    ],
+    "cse_image": [
+     {
+      "src": "https://www.redditstatic.com/new-icon.png"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Haskell, Lisp, and verbosity - Stack Overflow",
+   "htmlTitle": "\u003cb\u003eHaskell\u003c/b\u003e, \u003cb\u003eLisp\u003c/b\u003e, and verbosity - Stack Overflow",
+   "link": "https://stackoverflow.com/questions/392733/haskell-lisp-and-verbosity",
+   "displayLink": "stackoverflow.com",
+   "snippet": "[Note: There is a \"Template Haskell\" that lets you write macros just as in Lisp, but \n... as mentioned by ShreevatsaR, and even Liskell (Haskell semantics + Lisp ...",
+   "htmlSnippet": "[Note: There is a &quot;Template \u003cb\u003eHaskell\u003c/b\u003e&quot; that lets you write macros just as in \u003cb\u003eLisp\u003c/b\u003e, but \u003cbr\u003e\n... as mentioned by ShreevatsaR, and even Liskell (\u003cb\u003eHaskell\u003c/b\u003e semantics + \u003cb\u003eLisp\u003c/b\u003e&nbsp;...",
+   "cacheId": "kOaScS9WDncJ",
+   "formattedUrl": "https://stackoverflow.com/questions/.../haskell-lisp-and-verbosity",
+   "htmlFormattedUrl": "https://stackoverflow.com/questions/.../\u003cb\u003ehaskell\u003c/b\u003e-\u003cb\u003elisp\u003c/b\u003e-and-verbosity",
+   "pagemap": {
+    "question": [
+     {
+      "image": "https://cdn.sstatic.net/Sites/stackoverflow/img/apple-touch-icon.png?v=c78bd457575a",
+      "upvotecount": "102",
+      "name": "Haskell, Lisp, and verbosity [closed]",
+      "text": "For those of you experienced in both Haskell and some flavor of Lisp, I'm curious how \"pleasant\" (to use a horrid term) it is to write code in Haskell vs. Lisp. Some background: I'm learning...",
+      "answercount": "8"
+     }
+    ],
+    "metatags": [
+     {
+      "viewport": "width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0"
+     }
+    ],
+    "answer": [
+     {
+      "upvotecount": "68",
+      "text": "Short answer: almost anything you can do with macros you can do with a higher-order function (and I include monads, arrows, etc.), but it might require more thinking (but only the first time,..."
+     },
+     {
+      "upvotecount": "63",
+      "text": "First of all, don't worry about losing particular features like dynamic typing. As you're familiar with Common Lisp, a remarkably well-designed language, I assume you're aware that a language..."
+     },
+     {
+      "upvotecount": "13",
+      "text": "There's less need for metaprogramming in Haskell than in Common Lisp because much can be structured around monads and the added syntax makes embedded DSLs look less tree-like, but there's always..."
+     },
+     {
+      "upvotecount": "10",
+      "text": "Concerning macros, here is a page which talk about it : Hello Haskell, Goodbye Lisp. It explains a point of view where macros are just not needed in Haskell. It comes with a short example for..."
+     },
+     {
+      "upvotecount": "7",
+      "text": "I'm a Common Lisp programmer. Having tried Haskell some time ago my personal bottom line was to stick with CL. Reasons: dynamic typing (check out Dynamic vs. Static Typing — A Pattern-Based..."
+     },
+     {
+      "upvotecount": "5",
+      "text": "In Haskell you can define an if function, which is impossible in LISP. This is possible because of laziness, which allows for more modularity in programs. This classic paper: Why FP matters..."
+     },
+     {
+      "upvotecount": "4",
+      "text": "As I continue my Haskell-learning journey, it seems that one thing that helps \"replace\" macros is the ability to define your own infix operators and customize their precedence and associativity...."
+     },
+     {
+      "upvotecount": "4",
+      "text": "There are really cool things that you can achieve in Lisp with macros that are cumbersome (if possible) in Haskell. Take for example the `memoize' macro (see Chapter 9 of Peter Norvig's PAIP)...."
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "A philosophical difference between Haskell and Lisp",
+   "htmlTitle": "A philosophical difference between \u003cb\u003eHaskell\u003c/b\u003e and \u003cb\u003eLisp\u003c/b\u003e",
+   "link": "https://chrisdone.com/posts/haskell-lisp-philosophy-difference",
+   "displayLink": "chrisdone.com",
+   "snippet": "Dec 19, 2015 ... One difference in philosophy of Lisp (e.g. Common Lisp, Emacs Lisp) and \nHaskell is that the latter makes liberal use of many tiny functions that ...",
+   "htmlSnippet": "Dec 19, 2015 \u003cb\u003e...\u003c/b\u003e One difference in philosophy of \u003cb\u003eLisp\u003c/b\u003e (e.g. Common \u003cb\u003eLisp\u003c/b\u003e, Emacs \u003cb\u003eLisp\u003c/b\u003e) and \u003cbr\u003e\n\u003cb\u003eHaskell\u003c/b\u003e is that the latter makes liberal use of many tiny functions that&nbsp;...",
+   "cacheId": "gm_6WCpPjW8J",
+   "formattedUrl": "https://chrisdone.com/posts/haskell-lisp-philosophy-difference",
+   "htmlFormattedUrl": "https://chrisdone.com/posts/\u003cb\u003ehaskell\u003c/b\u003e-\u003cb\u003elisp\u003c/b\u003e-philosophy-difference"
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "What are the advantages of using LISP and Haskell? Will they make ...",
+   "htmlTitle": "What are the advantages of using \u003cb\u003eLISP\u003c/b\u003e and \u003cb\u003eHaskell\u003c/b\u003e? Will they make ...",
+   "link": "https://softwareengineering.stackexchange.com/questions/210934/what-are-the-advantages-of-using-lisp-and-haskell-will-they-make-me-a-better-pr",
+   "displayLink": "softwareengineering.stackexchange.com",
+   "snippet": "It is very much like learning math will improve your analytic skills and learning \nlatin/classic literature will improve your writing skills. People who ...",
+   "htmlSnippet": "It is very much like learning math will improve your analytic skills and learning \u003cbr\u003e\nlatin/classic literature will improve your writing skills. People who&nbsp;...",
+   "cacheId": "hJVnqCB-BacJ",
+   "formattedUrl": "https://softwareengineering.stackexchange.com/.../what-are-the-advantages-of -using-lisp-and-haskell-will-they-make-me-a-better-pr",
+   "htmlFormattedUrl": "https://softwareengineering.stackexchange.com/.../what-are-the-advantages-of -using-\u003cb\u003elisp\u003c/b\u003e-and-\u003cb\u003ehaskell\u003c/b\u003e-will-they-make-me-a-better-pr",
+   "pagemap": {
+    "cse_thumbnail": [
+     {
+      "width": "225",
+      "height": "225",
+      "src": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRozbQzpm3-fwP6-oqV1TQfHyHRb5wGpUBQC0uSuALRRgrB1FC-OSpTOKE"
+     }
+    ],
+    "qapage": [
+     {
+      "image": "https://cdn.sstatic.net/Sites/softwareengineering/img/apple-touch-icon@2.png?v=1ef7363febba",
+      "primaryimageofpage": "https://cdn.sstatic.net/Sites/softwareengineering/img/apple-touch-icon@2.png?v=1ef7363febba",
+      "name": "What are the advantages of using LISP and Haskell? Will they make me a better programmer?",
+      "description": "I know Lisp and Haskell are logic and functional programming languages respectively, but what exactly does this mean? How do they differ from other languages? I've heard that learning these will ma..."
+     }
+    ],
+    "question": [
+     {
+      "image": "https://cdn.sstatic.net/Sites/softwareengineering/img/apple-touch-icon.png?v=5e581fc45e58",
+      "name": "What are the advantages of using LISP and Haskell? Will they make me a better programmer? [closed]",
+      "upvotecount": "38",
+      "text": "I know Lisp and Haskell are logic and functional programming languages respectively, but what exactly does this mean? How do they differ from other languages? I've heard that learning these...",
+      "url": "share",
+      "answercount": "3",
+      "datecreated": "2013-09-09T16:08:40"
+     }
+    ],
+    "metatags": [
+     {
+      "viewport": "width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0",
+      "og:type": "website",
+      "og:url": "https://softwareengineering.stackexchange.com/questions/210934/what-are-the-advantages-of-using-lisp-and-haskell-will-they-make-me-a-better-pr",
+      "og:site_name": "Software Engineering Stack Exchange",
+      "og:image": "https://cdn.sstatic.net/Sites/softwareengineering/img/apple-touch-icon@2.png?v=1ef7363febba",
+      "twitter:card": "summary",
+      "twitter:domain": "softwareengineering.stackexchange.com",
+      "twitter:site": "@StackSoftEng",
+      "twitter:creator": "@StackSoftEng",
+      "twitter:title": "What are the advantages of using LISP and Haskell? Will they make me a better programmer?",
+      "twitter:description": "I know Lisp and Haskell are logic and functional programming languages respectively, but what exactly does this mean? How do they differ from other languages? I've heard that learning these will ma...",
+      "twitter:app:country": "US",
+      "twitter:app:name:iphone": "Stack Exchange iOS",
+      "twitter:app:id:iphone": "871299723",
+      "twitter:app:url:iphone": "se-zaphod://softwareengineering.stackexchange.com/questions/210934/what-are-the-advantages-of-using-lisp-and-haskell-will-they-make-me-a-better-pr",
+      "twitter:app:name:ipad": "Stack Exchange iOS",
+      "twitter:app:id:ipad": "871299723",
+      "twitter:app:url:ipad": "se-zaphod://softwareengineering.stackexchange.com/questions/210934/what-are-the-advantages-of-using-lisp-and-haskell-will-they-make-me-a-better-pr",
+      "twitter:app:name:googleplay": "Stack Exchange Android",
+      "twitter:app:url:googleplay": "http://softwareengineering.stackexchange.com/questions/210934/what-are-the-advantages-of-using-lisp-and-haskell-will-they-make-me-a-better-pr",
+      "twitter:app:id:googleplay": "com.stackexchange.marvin"
+     }
+    ],
+    "answer": [
+     {
+      "upvotecount": "33",
+      "text": "It is very much like learning math will improve your analytic skills and learning latin/classic literature will improve your writing skills. People who designed those languages have thought...",
+      "datecreated": "2013-09-09T16:28:17",
+      "url": "share"
+     },
+     {
+      "upvotecount": "12",
+      "text": "tl;dr Learning new stuff can only make you a better programmer, but being a better programmer is not about the languages you can write code in. What are the advantages of using LISP and Haskell?...",
+      "datecreated": "2013-09-09T16:37:11",
+      "url": "share"
+     },
+     {
+      "upvotecount": "9",
+      "text": "When you learn languages that are outside of the paradigm that you usually operate, it will open your mind to alternative solutions in your day to day and may even help you understand some...",
+      "datecreated": "2013-09-09T19:56:29",
+      "url": "share"
+     }
+    ],
+    "person": [
+     {
+      "name": "Logan545"
+     },
+     {
+      "name": "Logan545"
+     },
+     {
+      "name": "Simon"
+     },
+     {
+      "name": "jsedano"
+     },
+     {
+      "name": "Jetti"
+     }
+    ],
+    "cse_image": [
+     {
+      "src": "https://cdn.sstatic.net/Sites/softwareengineering/img/apple-touch-icon@2.png?v=1ef7363febba"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Hello Haskell, Goodbye Lisp",
+   "htmlTitle": "Hello \u003cb\u003eHaskell\u003c/b\u003e, Goodbye \u003cb\u003eLisp\u003c/b\u003e",
+   "link": "http://newartisans.com/2009/03/hello-haskell-goodbye-lisp/",
+   "displayLink": "newartisans.com",
+   "snippet": "Mar 14, 2009 ... As some one who has enjoyed the Lisp language (in several flavors) for about 15 \nyears now, I wanted to express some of my reactions at ...",
+   "htmlSnippet": "Mar 14, 2009 \u003cb\u003e...\u003c/b\u003e As some one who has enjoyed the \u003cb\u003eLisp\u003c/b\u003e language (in several flavors) for about 15 \u003cbr\u003e\nyears now, I wanted to express some of my reactions at&nbsp;...",
+   "cacheId": "iepGmDIMRl8J",
+   "formattedUrl": "newartisans.com/2009/03/hello-haskell-goodbye-lisp/",
+   "htmlFormattedUrl": "newartisans.com/2009/03/hello-\u003cb\u003ehaskell\u003c/b\u003e-goodbye-\u003cb\u003elisp\u003c/b\u003e/"
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Should I learn Lisp or Haskell? - Quora",
+   "htmlTitle": "Should I learn \u003cb\u003eLisp\u003c/b\u003e or \u003cb\u003eHaskell\u003c/b\u003e? - Quora",
+   "link": "https://www.quora.com/Should-I-learn-Lisp-or-Haskell",
+   "displayLink": "www.quora.com",
+   "snippet": "Long answer: only a newcomer would ask “Lisp or Haskell,” people with some \nexperience in functional programming are well aware that these languages don't\n ...",
+   "htmlSnippet": "Long answer: only a newcomer would ask “\u003cb\u003eLisp\u003c/b\u003e or \u003cb\u003eHaskell\u003c/b\u003e,” people with some \u003cbr\u003e\nexperience in functional programming are well aware that these languages don&#39;t\u003cbr\u003e\n&nbsp;...",
+   "formattedUrl": "https://www.quora.com/Should-I-learn-Lisp-or-Haskell",
+   "htmlFormattedUrl": "https://www.quora.com/Should-I-learn-\u003cb\u003eLisp\u003c/b\u003e-or-\u003cb\u003eHaskell\u003c/b\u003e",
+   "pagemap": {
+    "metatags": [
+     {
+      "viewport": "initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width, minimum-scale=1",
+      "theme-color": "#b92b27",
+      "al:android:url": "intent://www.quora.com/Should-I-learn-Lisp-or-Haskell#Intent;scheme=qhttp;package=com.quora.android;S.market_referrer=launch_url=https%3A%2F%2Fwww.quora.com%2FShould-I-learn-Lisp-or-Haskell&logging_data=uid%3DNone;end",
+      "al:android:package": "com.quora.android",
+      "fb:pages": "255232486973"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "learning - Haskell AND Lisp vs. Haskell OR Lisp - Software ...",
+   "htmlTitle": "learning - \u003cb\u003eHaskell\u003c/b\u003e AND \u003cb\u003eLisp\u003c/b\u003e vs. \u003cb\u003eHaskell\u003c/b\u003e OR \u003cb\u003eLisp\u003c/b\u003e - Software ...",
+   "link": "https://softwareengineering.stackexchange.com/questions/18838/haskell-and-lisp-vs-haskell-or-lisp/107314",
+   "displayLink": "softwareengineering.stackexchange.com",
+   "snippet": "I suggest learning both, Haskell first, then Common Lisp. My experience with \nHaskell was that the static typing seemed to be a restricting ...",
+   "htmlSnippet": "I suggest learning both, \u003cb\u003eHaskell\u003c/b\u003e first, then Common \u003cb\u003eLisp\u003c/b\u003e. My experience with \u003cbr\u003e\n\u003cb\u003eHaskell\u003c/b\u003e was that the static typing seemed to be a restricting&nbsp;...",
+   "cacheId": "Rwmt9S-v2P0J",
+   "formattedUrl": "https://softwareengineering.stackexchange.com/.../haskell...lisp...haskell...lisp/ 107314",
+   "htmlFormattedUrl": "https://softwareengineering.stackexchange.com/.../\u003cb\u003ehaskell\u003c/b\u003e...\u003cb\u003elisp\u003c/b\u003e...\u003cb\u003ehaskell\u003c/b\u003e...\u003cb\u003elisp\u003c/b\u003e/ 107314",
+   "pagemap": {
+    "cse_thumbnail": [
+     {
+      "width": "225",
+      "height": "225",
+      "src": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRozbQzpm3-fwP6-oqV1TQfHyHRb5wGpUBQC0uSuALRRgrB1FC-OSpTOKE"
+     }
+    ],
+    "qapage": [
+     {
+      "image": "https://cdn.sstatic.net/Sites/softwareengineering/img/apple-touch-icon@2.png?v=1ef7363febba",
+      "primaryimageofpage": "https://cdn.sstatic.net/Sites/softwareengineering/img/apple-touch-icon@2.png?v=1ef7363febba",
+      "name": "Haskell AND Lisp vs. Haskell OR Lisp",
+      "description": "I currently code with C, C++, and Python. I'm wanting to pick up a functional programming language, and right now I'm leaning toward Haskell. I do NOT want to start a \"Haskell vs Lisp\" war here; wh..."
+     }
+    ],
+    "question": [
+     {
+      "image": "https://cdn.sstatic.net/Sites/softwareengineering/img/apple-touch-icon.png?v=5e581fc45e58",
+      "name": "Haskell AND Lisp vs. Haskell OR Lisp [closed]",
+      "upvotecount": "40",
+      "text": "I currently code with C, C++, and Python. I'm wanting to pick up a functional programming language, and right now I'm leaning toward Haskell. I do NOT want to start a \"Haskell vs Lisp\" war...",
+      "url": "share",
+      "answercount": "7",
+      "datecreated": "2010-11-13T17:33:34"
+     }
+    ],
+    "metatags": [
+     {
+      "viewport": "width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0",
+      "og:type": "website",
+      "og:url": "https://softwareengineering.stackexchange.com/questions/18838/haskell-and-lisp-vs-haskell-or-lisp/107314",
+      "og:site_name": "Software Engineering Stack Exchange",
+      "og:image": "https://cdn.sstatic.net/Sites/softwareengineering/img/apple-touch-icon@2.png?v=1ef7363febba",
+      "twitter:card": "summary",
+      "twitter:domain": "softwareengineering.stackexchange.com",
+      "twitter:site": "@StackSoftEng",
+      "twitter:creator": "@StackSoftEng",
+      "twitter:title": "Haskell AND Lisp vs. Haskell OR Lisp",
+      "twitter:description": "I currently code with C, C++, and Python. I'm wanting to pick up a functional programming language, and right now I'm leaning toward Haskell. I do NOT want to start a \"Haskell vs Lisp\" war here; wh...",
+      "twitter:app:country": "US",
+      "twitter:app:name:iphone": "Stack Exchange iOS",
+      "twitter:app:id:iphone": "871299723",
+      "twitter:app:url:iphone": "se-zaphod://softwareengineering.stackexchange.com/questions/18838/haskell-and-lisp-vs-haskell-or-lisp/107314",
+      "twitter:app:name:ipad": "Stack Exchange iOS",
+      "twitter:app:id:ipad": "871299723",
+      "twitter:app:url:ipad": "se-zaphod://softwareengineering.stackexchange.com/questions/18838/haskell-and-lisp-vs-haskell-or-lisp/107314",
+      "twitter:app:name:googleplay": "Stack Exchange Android",
+      "twitter:app:url:googleplay": "http://softwareengineering.stackexchange.com/questions/18838/haskell-and-lisp-vs-haskell-or-lisp/107314",
+      "twitter:app:id:googleplay": "com.stackexchange.marvin"
+     }
+    ],
+    "answer": [
+     {
+      "upvotecount": "58",
+      "text": "I suggest learning both, Haskell first, then Common Lisp. My experience with Haskell was that the static typing seemed to be a restricting annoyance at first, but once I got used to it, I noticed...",
+      "datecreated": "2010-11-13T19:43:02",
+      "url": "share"
+     },
+     {
+      "upvotecount": "31",
+      "text": "AND please. Haskell teaches you the purest of FP, as far as I'm aware at least, just like Smalltalk teaches the purest of OO. (I mention this not to suggest that OO and FP can't marry, but...",
+      "datecreated": "2010-11-13T18:05:01",
+      "url": "share"
+     },
+     {
+      "upvotecount": "11",
+      "text": "Learning Lisp later will allow you to customize Emacs which arguably is the most advanced text editor available. You can't do that in Haskell.",
+      "datecreated": "2010-11-13T18:42:50",
+      "url": "share"
+     },
+     {
+      "upvotecount": "11",
+      "text": "Haskell and Lisp are two totally different beasts. Haskell is kindof \"pure functional programming in an ivory tower\" Lisp is kindof \"code-is-data / data-is-code / make your own language constructs\"...",
+      "datecreated": "2011-09-10T18:35:10",
+      "url": "share"
+     },
+     {
+      "upvotecount": "7",
+      "text": "The main benefit I see from learning Lisp is learning how to integrate FP into a real-world oriented multiparadigm language, rather than only learning it in the context of an academic language...",
+      "datecreated": "2010-11-13T17:49:29",
+      "url": "share"
+     },
+     {
+      "upvotecount": "5",
+      "text": "I also come from a C/C++/Python background and have tried out FP a couple of times in the last few years. Initially I looked at Haskell and couldn't make head or tail of it, then tried Ocaml...",
+      "datecreated": "2010-11-14T00:43:53",
+      "url": "share"
+     },
+     {
+      "upvotecount": "2",
+      "text": "I originally came from a C/C++/Ruby background and I used FP concepts in Ruby whenever I could. State just kinda hurt my brain. One of my buddies called me up one day, and he asked me to write...",
+      "datecreated": "2015-04-21T17:17:09",
+      "url": "share"
+     }
+    ],
+    "person": [
+     {
+      "name": "Zeke"
+     },
+     {
+      "name": "Larry Coleman"
+     },
+     {
+      "name": "Frank Shearar"
+     },
+     {
+      "name": "dagnelies"
+     },
+     {
+      "name": "dsimcha"
+     },
+     {
+      "name": "timday"
+     },
+     {
+      "name": "Nate Symer"
+     }
+    ],
+    "cse_image": [
+     {
+      "src": "https://cdn.sstatic.net/Sites/softwareengineering/img/apple-touch-icon@2.png?v=1ef7363febba"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Lisp and Haskell (2017) | Hacker News",
+   "htmlTitle": "\u003cb\u003eLisp\u003c/b\u003e and \u003cb\u003eHaskell\u003c/b\u003e (2017) | Hacker News",
+   "link": "https://news.ycombinator.com/item?id=17533341",
+   "displayLink": "news.ycombinator.com",
+   "snippet": "I learned Haskell and then moved to OCaml and found it to be a much more \npractical language. Haven't tried Lisp yet, but it's quickly moving to the top of my \nlist.",
+   "htmlSnippet": "I learned \u003cb\u003eHaskell\u003c/b\u003e and then moved to OCaml and found it to be a much more \u003cbr\u003e\npractical language. Haven&#39;t tried \u003cb\u003eLisp\u003c/b\u003e yet, but it&#39;s quickly moving to the top of my \u003cbr\u003e\nlist.",
+   "cacheId": "nxXLckt0hDEJ",
+   "formattedUrl": "https://news.ycombinator.com/item?id=17533341",
+   "htmlFormattedUrl": "https://news.ycombinator.com/item?id=17533341",
+   "pagemap": {
+    "metatags": [
+     {
+      "referrer": "origin",
+      "viewport": "width=device-width, initial-scale=1.0"
+     }
+    ]
+   }
+  }
+ ]
+}
