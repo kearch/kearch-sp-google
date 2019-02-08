@@ -65,7 +65,7 @@ func AddAConnectionRequestPost(w http.ResponseWriter, r *http.Request) {
 
 	summary := MakeASummary()
 	summaryStr, err := json.Marshal(&summary)
-	_, err = http.Post("sample.com", "application/json", bytes.NewReader(summaryStr))
+	_, err = http.Post("http://"+me_host+"/v0/me/add_a_summary", "application/json", bytes.NewReader(summaryStr))
 	if err != nil {
 		panic(err)
 	}
