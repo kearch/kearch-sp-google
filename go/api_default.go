@@ -11,6 +11,7 @@ package openapi
 
 import (
 	"bufio"
+	"bytes"
 	"encoding/json"
 	"fmt"
 	"io/ioutil"
@@ -23,6 +24,27 @@ import (
 )
 
 const hostname = "localhost"
+
+func MakeASummary() Summary {
+	file, err := os.Open("en_default_dict.txt")
+	if err != nil {
+		log.Fatal(err)
+	}
+	defer file.Close()
+
+	res := Summary{SpHost: hostname, EngineName: "kearch-sp-google", Dump: make(map[string]int32)}
+	scanner := bufio.NewScanner(file)
+	for scanner.Scan() {
+		line := scanner.Text()
+		sep := strings.Fields(line)
+		n, err := strconv.Atoi(sep[1])
+		if err != nil {
+			log.Fatal(err)
+		}
+		res.Dump[sep[0]] = int32(n)
+	}
+	return res
+}
 
 // AddAConnectionRequestPost - Add a connection request sent from meta server to specialist server.
 func AddAConnectionRequestPost(w http.ResponseWriter, r *http.Request) {
@@ -40,6 +62,13 @@ func AddAConnectionRequestPost(w http.ResponseWriter, r *http.Request) {
 	me_host := data.MeHost
 	scheme := data.Scheme
 	log.Printf("me_host = " + me_host + ", scheme = " + scheme)
+
+	summary := MakeASummary()
+	summaryStr, err := json.Marshal(&summary)
+	_, err = http.Post("sample.com", "application/json", bytes.NewReader(summaryStr))
+	if err != nil {
+		panic(err)
+	}
 
 	res := InlineResponse200{MeHost: me_host}
 	out, err := json.Marshal(&res)
@@ -69,24 +98,8 @@ func GetASummaryGet(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json; charset=UTF-8")
 	w.WriteHeader(http.StatusOK)
 
-	file, err := os.Open("en_default_dict.txt")
-	if err != nil {
-		log.Fatal(err)
-	}
-	defer file.Close()
-
-	res := Summary{SpHost: hostname, EngineName: "kearch-sp-google", Dump: make(map[string]int32)}
-	scanner := bufio.NewScanner(file)
-	for scanner.Scan() {
-		line := scanner.Text()
-		sep := strings.Fields(line)
-		n, err := strconv.Atoi(sep[1])
-		if err != nil {
-			log.Fatal(err)
-		}
-		res.Dump[sep[0]] = int32(n)
-	}
-	out, err := json.Marshal(&res)
+	summary := MakeASummary()
+	out, err := json.Marshal(&summary)
 	if err != nil {
 		panic(err)
 	}
