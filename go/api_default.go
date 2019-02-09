@@ -23,17 +23,25 @@ import (
 	"time"
 )
 
-const hostname = "localhost"
-
 func MakeASummary() Summary {
-	file, err := os.Open("en_default_dict.txt")
+	file, err := os.Open("Hostname")
+	if err != nil {
+		log.Fatal(err)
+	}
+	defer file.Close()
+	scanner := bufio.NewScanner(file)
+	scanner.Scan()
+	hostname := scanner.Text()
+
+	res := Summary{SpHost: hostname, EngineName: "kearch-sp-google", Dump: make(map[string]int32)}
+
+	file, err = os.Open("en_default_dict.txt")
 	if err != nil {
 		log.Fatal(err)
 	}
 	defer file.Close()
 
-	res := Summary{SpHost: hostname, EngineName: "kearch-sp-google", Dump: make(map[string]int32)}
-	scanner := bufio.NewScanner(file)
+	scanner = bufio.NewScanner(file)
 	for scanner.Scan() {
 		line := scanner.Text()
 		sep := strings.Fields(line)

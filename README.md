@@ -4,7 +4,7 @@ Use Google Custome Search Engine as a specialist search engine
 
 ### Running the server
 
-First you need to rewrite ./GoogleCustomSearchAPIKey and ./GoogleCustomSearchEngineID with your own API key and engine ID. You can get APIkey from [https://developers.google.com/custom-search/v1/introduction](https://developers.google.com/custom-search/v1/introduction).
+First you need to rewrite ./GoogleCustomSearchAPIKey and ./GoogleCustomSearchEngineID with your own API key and engine ID. You can get APIkey from [https://developers.google.com/custom-search/v1/introduction](https://developers.google.com/custom-search/v1/introduction). And you must rewrite ./Hostname with your hostname or IP adress of your server.
 
 And then
 
